@@ -20,8 +20,8 @@ const About = ({ data }) => {
         <div className="three columns">
           <img
             className="profile-pic"
-            src={profilepic}
-            alt="Sonny's Profile Pic"
+            src="https://mir-s3-cdn-cf.behance.net/user/100/8dfed41035857129.610aeddd588ba.jpg"
+            alt="Remilekun's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">
@@ -32,23 +32,23 @@ const About = ({ data }) => {
             <div className="columns contact-details">
               <h2>Contact Details</h2>
               <p className="address">
-                <span>{name}</span>
+                <span>5,oguntuase close</span>
                 <br />
                 <span>
-                  {street}
+                  Lagos
                   <br />
-                  {city} {state}, {zip}
+                  Ayobo,Lagos, 100278
                 </span>
                 <br />
-                <span>{phone}</span>
+                <span>09020531002</span>
                 <br />
-                <span>{email}</span>
+                <span>remiabduls@gmail.com</span>
               </p>
             </div>
             <div className="columns download">
               <p>
                 <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                  <i className="-download"></i>Download Resume
                 </a>
               </p>
             </div>
